@@ -22,14 +22,14 @@ public class SensorGarbageCollection {
         }
 
         System.out.println("Sensor readings are stored in memory.");
-        Thread.sleep(8000);
+        Thread.sleep(30000);
         readings = null;
 
         System.out.println("Reference to sensor readings removed.");
         System.out.println("The objects are now eligible for garbage collection.");
 
         System.gc();
-        Thread.sleep(8000);
+        Thread.sleep(30000);
         System.out.println("Program finished.");
     }
 }
