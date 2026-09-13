@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# C/C++ build artifacts
+*.o
+*.out
+*.dSYM/
+sensor_memory
+sensor_memory_leak
+
+# Instruments profiling entitlement
+entitle.xml
+
+# Rust compiled executable
+sensor_memory_rust
+target/
+
+# Java compiled files
+*.class
+
+# IDE
+.vscode/
+.idea/
